@@ -12,7 +12,10 @@ let quotes = [
 ];
 
 function randomQuote() {
-    const selecteRandom = Math.random();
-    const selected = Math.floor(selecteRandom);
+    const selectRandom = Math.floor(Math.random() * quotes.length);
+    document.getElementById(id="quoteContainer");
+   
 
 }
+
+randomQuote();
