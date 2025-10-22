@@ -6,7 +6,8 @@ function romanToInt(s) {
     const curr = v[s[i]];
     const next = v[s[i+1]];
     if (curr === undefined) throw new Error(`Invalid Roman numeral: "${s[i]}"`);
-    total += next && curr < next ? -curr : curr;
+    total += next && curr < next ? -curr : curr; 
+    //creating a note here so that i can run a commit and have some changes
   }
   return total;
 }
