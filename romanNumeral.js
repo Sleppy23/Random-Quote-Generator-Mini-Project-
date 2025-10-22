@@ -8,6 +8,7 @@ function romanToInt(s) {
     if (curr === undefined) throw new Error(`Invalid Roman numeral: "${s[i]}"`);
     total += next && curr < next ? -curr : curr; 
     //creating a note here so that i can run a commit and have some changes
+    //heres some more notes
   }
   return total;
 }
