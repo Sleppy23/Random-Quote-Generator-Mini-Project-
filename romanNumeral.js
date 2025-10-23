@@ -9,6 +9,7 @@ function romanToInt(s) {
     total += next && curr < next ? -curr : curr; 
     //creating a note here so that i can run a commit and have some changes
     //heres some more notes
+    //another note to make a new commit
   }
   return total;
 }
